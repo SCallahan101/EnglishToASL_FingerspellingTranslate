@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>English Name conversion into American Sign Language</h1>
+        <form id="name-entrybox">
+                <input type="text" id="textName" placeholder="Your First Name?">
+                <button type="submit" id='convertButton' value="submit">Submit</button>
+        </form>
+        <div id="result-container">
+            <p class='personName'></p>
+            <video class="videoArea" autoplay></video>
+            <div class="spellingName container">
+                <!-- Pics -->
+            </div>
+            <button type="button" id="readyButton">Ready</button>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="spellingMachine.js" async defer></script>
+    </body>
+</html>

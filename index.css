@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+#name-entrybox{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+#textName{
+    height: 16px;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+#convertButton{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
+
+#result-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 70vh;
+    border: 1px solid black;
+    position: relative;
+}
+.personName{
+    text-align: center;
+}
+.videoArea{
+    /* width: 500px; */
+    height: 333.33px;
+}
+.spellingName{
+    position: relative;
+    /* border: 2px solid green; */
+    display: inline;
+}
+.alphabetPic{
+    width: 500px;
+    position: absolute;
+}
+.emptyImg{
+    color: white;
+    width: 500px;
+    height: 333.33px;
+    background-color: white;
+    position: absolute;
+    border: none;
+}
+#readyButton{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
