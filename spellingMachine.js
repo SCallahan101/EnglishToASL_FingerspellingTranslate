@@ -2,107 +2,107 @@
     const spellChars = [
         {
             alphabet: "A",
-            imgFile: 'database/A.JPG'
+            imgFile: 'AlphabetData/A.JPG'
         },
         {
             alphabet: "B",
-            imgFile: 'database/B.JPG'
+            imgFile: 'AlphabetData/B.JPG'
         },
         {
             alphabet: "C",
-            imgFile: 'database/C.JPG'
+            imgFile: 'AlphabetData/C.JPG'
         },
         {
             alphabet: "D",
-            imgFile: 'database/D.JPG'
+            imgFile: 'AlphabetData/D.JPG'
         },
         {
             alphabet: "E",
-            imgFile: 'database/E.JPG'
+            imgFile: 'AlphabetData/E.JPG'
         },
         {
             alphabet: "F",
-            imgFile: 'database/F.JPG'
+            imgFile: 'AlphabetData/F.JPG'
         },
         {
             alphabet: "G",
-            imgFile: 'database/G.JPG'
+            imgFile: 'AlphabetData/G.JPG'
         },
         {
             alphabet: "H",
-            imgFile: 'database/H.JPG'
+            imgFile: 'AlphabetData/H.JPG'
         },
         {
             alphabet: "I",
-            imgFile: 'database/I.JPG'
+            imgFile: 'AlphabetData/I.JPG'
         },
         {
             alphabet: "J",
-            imgFile: 'database/J.JPG'
+            imgFile: 'AlphabetData/J.JPG'
         },
         {
             alphabet: "K",
-            imgFile: 'database/K.JPG'
+            imgFile: 'AlphabetData/K.JPG'
         },
         {
             alphabet: "L",
-            imgFile: 'database/L.JPG'
+            imgFile: 'AlphabetData/L.JPG'
         },
         {
             alphabet: "M",
-            imgFile: 'database/M.JPG'
+            imgFile: 'AlphabetData/M.JPG'
         },
         {
             alphabet: "N",
-            imgFile: 'database/N.JPG'
+            imgFile: 'AlphabetData/N.JPG'
         },
         {
             alphabet: "O",
-            imgFile: 'database/O.JPG'
+            imgFile: 'AlphabetData/O.JPG'
         },
         {
             alphabet: "P",
-            imgFile: 'database/P.JPG'
+            imgFile: 'AlphabetData/P.JPG'
         },
         {
             alphabet: "Q",
-            imgFile: 'database/Q.JPG'
+            imgFile: 'AlphabetData/Q.JPG'
         },
         {
             alphabet: "R",
-            imgFile: 'database/R.JPG'
+            imgFile: 'AlphabetData/R.JPG'
         },
         {
             alphabet: "S",
-            imgFile: 'database/S.JPG'
+            imgFile: 'AlphabetData/S.JPG'
         },
         {
             alphabet: "T",
-            imgFile: 'database/T.JPG'
+            imgFile: 'AlphabetData/T.JPG'
         },
         {
             alphabet: "U",
-            imgFile: 'database/U.JPG'
+            imgFile: 'AlphabetData/U.JPG'
         },
         {
             alphabet: "V",
-            imgFile: 'database/V.JPG'
+            imgFile: 'AlphabetData/V.JPG'
         },
         {
             alphabet: "W",
-            imgFile: 'database/W.JPG'
+            imgFile: 'AlphabetData/W.JPG'
         },
         {
             alphabet: "X",
-            imgFile: 'database/X.JPG'
+            imgFile: 'AlphabetData/X.JPG'
         },
         {
             alphabet: "Y",
-            imgFile: 'database/Y.JPG'
+            imgFile: 'AlphabetData/Y.JPG'
         },
         {
             alphabet: "Z",
-            imgFile: 'database/Z.JPG'
+            imgFile: 'AlphabetData/Z.JPG'
         }
     ];
     
