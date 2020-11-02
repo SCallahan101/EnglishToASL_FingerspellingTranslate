@@ -113,7 +113,7 @@
         console.log("Textbox value: " + resultValue);
         $(".personName").text(`The person's name is ${resultValue}` + ` in English. The American Sign Language will spelling out like this:`);
         // Pop the intro
-        $(".videoArea").html("<source src='database/introVid2.0.mp4' type='video/mp4'>");
+        $(".videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
         $(".spellingName").html(
             // empty the append part
             ``
@@ -144,7 +144,7 @@
             console.log("url: " + file);
 
             $(".spellingName").append(
-                `<img src="${file}" class='alphabetPic'><img src="database/empty.JPG" class="emptyImg">`
+                `<img src="${file}" class='alphabetPic'><img src="AlphabetData/Blank.JPG" class="emptyImg">`
                 );
         }
         
