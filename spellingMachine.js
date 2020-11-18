@@ -1,108 +1,134 @@
 
     const spellChars = [
         {
-            alphabet: "A",
-            imgFile: 'AlphabetData/A.JPG'
+            alphabet: 'A',
+            imgFile: 'AlphabetData/A.JPG',
+            aslPic: 'AlphabetData/ASL_A.JPG'
         },
         {
-            alphabet: "B",
-            imgFile: 'AlphabetData/B.JPG'
+            alphabet: 'B',
+            imgFile: 'AlphabetData/B.JPG',
+            aslPic: 'AlphabetData/ASL_B.JPG'
         },
         {
-            alphabet: "C",
-            imgFile: 'AlphabetData/C.JPG'
+            alphabet: 'C',
+            imgFile: 'AlphabetData/C.JPG',
+            aslPic: 'AlphabetData/ASL_C.JPG'
         },
         {
-            alphabet: "D",
-            imgFile: 'AlphabetData/D.JPG'
+            alphabet: 'D',
+            imgFile: 'AlphabetData/D.JPG',
+            aslPic: 'AlphabetData/ASL_D.JPG'
         },
         {
-            alphabet: "E",
-            imgFile: 'AlphabetData/E.JPG'
+            alphabet: 'E',
+            imgFile: 'AlphabetData/E.JPG',
+            aslPic: 'AlphabetData/ASL_E.JPG'
         },
         {
-            alphabet: "F",
-            imgFile: 'AlphabetData/F.JPG'
+            alphabet: 'F',
+            imgFile: 'AlphabetData/F.JPG',
+            aslPic: 'AlphabetData/ASL_F.JPG'
         },
         {
-            alphabet: "G",
-            imgFile: 'AlphabetData/G.JPG'
+            alphabet: 'G',
+            imgFile: 'AlphabetData/G.JPG',
+            aslPic: 'AlphabetData/ASL_G.JPG'
         },
         {
-            alphabet: "H",
-            imgFile: 'AlphabetData/H.JPG'
+            alphabet: 'H',
+            imgFile: 'AlphabetData/H.JPG',
+            aslPic: 'AlphabetData/ASL_H.JPG'
         },
         {
-            alphabet: "I",
-            imgFile: 'AlphabetData/I.JPG'
+            alphabet: 'I',
+            imgFile: 'AlphabetData/I.JPG',
+            aslPic: 'AlphabetData/ASL_I.JPG'
         },
         {
-            alphabet: "J",
-            imgFile: 'AlphabetData/J.JPG'
+            alphabet: 'J',
+            imgFile: 'AlphabetData/J.JPG',
+            aslPic: 'AlphabetData/ASL_J.JPG'
         },
         {
-            alphabet: "K",
-            imgFile: 'AlphabetData/K.JPG'
+            alphabet: 'K',
+            imgFile: 'AlphabetData/K.JPG',
+            aslPic: 'AlphabetData/ASL_K.JPG'
         },
         {
-            alphabet: "L",
-            imgFile: 'AlphabetData/L.JPG'
+            alphabet: 'L',
+            imgFile: 'AlphabetData/L.JPG',
+            aslPic: 'AlphabetData/ASL_L.JPG'
         },
         {
-            alphabet: "M",
-            imgFile: 'AlphabetData/M.JPG'
+            alphabet: 'M',
+            imgFile: 'AlphabetData/M.JPG',
+            aslPic: 'AlphabetData/ASL_M.JPG'
         },
         {
-            alphabet: "N",
-            imgFile: 'AlphabetData/N.JPG'
+            alphabet: 'N',
+            imgFile: 'AlphabetData/N.JPG',
+            aslPic: 'AlphabetData/ASL_N.JPG'
         },
         {
-            alphabet: "O",
-            imgFile: 'AlphabetData/O.JPG'
+            alphabet: 'O',
+            imgFile: 'AlphabetData/O.JPG',
+            aslPic: 'AlphabetData/ASL_O.JPG'
         },
         {
-            alphabet: "P",
-            imgFile: 'AlphabetData/P.JPG'
+            alphabet: 'P',
+            imgFile: 'AlphabetData/P.JPG',
+            aslPic: 'AlphabetData/ASL_P.JPG'
         },
         {
-            alphabet: "Q",
-            imgFile: 'AlphabetData/Q.JPG'
+            alphabet: 'Q',
+            imgFile: 'AlphabetData/Q.JPG',
+            aslPic: 'AlphabetData/ASL_Q.JPG'
         },
         {
-            alphabet: "R",
-            imgFile: 'AlphabetData/R.JPG'
+            alphabet: 'R',
+            imgFile: 'AlphabetData/R.JPG',
+            aslPic: 'AlphabetData/ASL_R.JPG'
         },
         {
-            alphabet: "S",
-            imgFile: 'AlphabetData/S.JPG'
+            alphabet: 'S',
+            imgFile: 'AlphabetData/S.JPG',
+            aslPic: 'AlphabetData/ASL_S.JPG'
         },
         {
-            alphabet: "T",
-            imgFile: 'AlphabetData/T.JPG'
+            alphabet: 'T',
+            imgFile: 'AlphabetData/T.JPG',
+            aslPic: 'AlphabetData/ASL_T.JPG'
         },
         {
-            alphabet: "U",
-            imgFile: 'AlphabetData/U.JPG'
+            alphabet: 'U',
+            imgFile: 'AlphabetData/U.JPG',
+            aslPic: 'AlphabetData/ASL_U.JPG'
         },
         {
-            alphabet: "V",
-            imgFile: 'AlphabetData/V.JPG'
+            alphabet: 'V',
+            imgFile: 'AlphabetData/V.JPG',
+            aslPic: 'AlphabetData/ASL_V.JPG'
         },
         {
-            alphabet: "W",
-            imgFile: 'AlphabetData/W.JPG'
+            alphabet: 'W',
+            imgFile: 'AlphabetData/W.JPG',
+            aslPic: 'AlphabetData/ASL_W.JPG'
         },
         {
-            alphabet: "X",
-            imgFile: 'AlphabetData/X.JPG'
+            alphabet: 'X',
+            imgFile: 'AlphabetData/X.JPG',
+            aslPic: 'AlphabetData/ASL_X.JPG'
         },
         {
-            alphabet: "Y",
-            imgFile: 'AlphabetData/Y.JPG'
+            alphabet: 'Y',
+            imgFile: 'AlphabetData/Y.JPG',
+            aslPic: 'AlphabetData/ASL_Y.JPG'
         },
         {
-            alphabet: "Z",
-            imgFile: 'AlphabetData/Z.JPG'
+            alphabet: 'Z',
+            imgFile: 'AlphabetData/Z.JPG',
+            aslPic: 'AlphabetData/ASL_Z.JPG'
         }
     ];
     
@@ -118,6 +144,10 @@
             // empty the append part
             ``
             );
+        $(".alphabetBlocks").html(
+           // empty the append part
+           ``
+        )    
         // resultValue;
         let characters = resultValue.split('');
         console.log(characters);
@@ -142,10 +172,15 @@
             // })
             let file = test.map(a => a.imgFile);
             console.log("url: " + file);
+            let aslFile = test.map(b => b.aslPic);
+            console.log("asl pic: " + aslFile);
 
             $(".spellingName").append(
                 `<img src="${file}" class='alphabetPic'><img src="AlphabetData/Blank.JPG" class="emptyImg">`
                 );
+            $(".alphabetBlocks").append(`
+                <img src="${aslFile}" class="blockBox">
+            `);
         }
         
 

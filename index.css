@@ -22,9 +22,10 @@ h1{
 #result-container{
     width: 90%;
     margin: 0 auto;
-    height: 70vh;
+    height: 140vh;
     border: 1px solid black;
     position: relative;
+    text-align: center;
 }
 .personName{
     text-align: center;
@@ -36,11 +37,15 @@ h1{
 .spellingName{
     position: relative;
     /* border: 2px solid green; */
-    display: inline;
+    /* display: inline; */
 }
 .alphabetPic{
     width: 500px;
     position: absolute;
+    top: 1em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 .emptyImg{
     color: white;
@@ -48,15 +53,29 @@ h1{
     height: 333.33px;
     background-color: white;
     position: absolute;
-    border: none;
-}
-#readyButton{
-    position: absolute;
-    bottom: 40px;
+    top: 1em;
     left: 0;
     right: 0;
     margin: 0 auto;
+    border: none;
+}
+#readyButton{
+    /* position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; */
+    margin-top: 10px;
     height: 40px;
     width: 100px;
     font-size: 20px;
+}
+.alphabetBlocks{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.blockBox{
+    width: 100px;
 }
