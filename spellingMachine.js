@@ -131,13 +131,13 @@
             aslPic: 'AlphabetData/ASL_Z.JPG'
         }
     ];
-    
+    $("#loopButton").hide();
     
     $("#name-entrybox").submit(e => {
         e.preventDefault();
         const resultValue = $('#textName').val();
         console.log("Textbox value: " + resultValue);
-        $(".personName").text(`The person's name is ${resultValue}` + ` in English. The American Sign Language will spelling out like this:`);
+        $(".personName").text(`Your name ${resultValue}` + ` in English. The American Sign Language will spelling out like this!`);
         // Pop the intro
         $(".videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
         $(".spellingName").html(
@@ -147,7 +147,9 @@
         $(".alphabetBlocks").html(
            // empty the append part
            ``
-        )    
+        )  
+        $("#loopButton").show();
+        // $("#repeatLoopButton").show();  
         // resultValue;
         let characters = resultValue.split('');
         console.log(characters);
@@ -156,6 +158,9 @@
         let letter = {};
         for(i = 0; i < characters.length; i++){
             letter = characters[i];
+            // console.log(characters.length);
+            let num = characters.length;
+            localStorage.setItem('num' , num);
             console.log("Character: " + characters[i]);
             setUpPics(letter);
         }
@@ -181,27 +186,63 @@
             $(".alphabetBlocks").append(`
                 <img src="${aslFile}" class="blockBox">
             `);
+            $(".alphabetBlocks").hide();
         }
         
 
-        $("#readyButton").click(function(){
-            console.log("clicked");
-            let theSetUp;
-            function picturesAnimation() {
-                let perPic = $('.container img:first');
-                perPic.hide();
-                $('.container').append(perPic);
-                perPic.fadeIn("slow")
-            };
-            theSetUp = setInterval(function(){
-                picturesAnimation();
-            }, 1000);
-        });
+        // function loopButton(){
+            $("#loopButton").on('click', function(){
+                console.log("clicked");
+                $('#loopButton').attr("disabled", true);
+                $(".alphabetBlocks").show(); 
+                let theSetUp;
+                function picturesAnimation() {
+                    let perPic = $('.container img:first');
+                    perPic.hide();
+                    $('.container').append(perPic);
+                    perPic.fadeIn();
+                };
+                theSetUp = setInterval(function(){
+                    picturesAnimation();
+                }, 1000);
+                // let stopGap = clearInterval(theSetUp);
+                let numForLoop = localStorage.getItem('num');
+                let mathForLoop = (numForLoop * 1000) * 2;
+                console.log(mathForLoop);
+                setTimeout(function(){
+                    console.log('time out');
+                    clearInterval(theSetUp);
+                    $('#loopButton').attr("disabled", false);
+                }, mathForLoop);
+            });
+            // removeEventListener('click', loopButton);
+        // }
+        // addEventListener('click', loopButton);
+        // loopButton();
+
+        // $("#loopButton").click(function(){
+        //     console.log('testing settimer');
+        //     let stopGap;
+        //     let target = $('.container img:first');
+        //     function stop(){
+        //         target.stop();
+        //     };
+        //     stopGap = clearInterval(function(){
+        //         stop();
+        //     }, 7000);
+        // });
+
+//         function endTheLoop(){
+//             let numForLoop = localStorage.getItem('num');
+//             let mathForLoop = numForLoop * 1000;
+//             // console.log(mathForLoop);
+            
+//             clearInterval(function(){picturesAnimation();}, mathForLoop);
+//         }
 
 
 
-
-
+// endTheLoop();
 setUpPics();
       
             // $("#readyButton").click(function(){

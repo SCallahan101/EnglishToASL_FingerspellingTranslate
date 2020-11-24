@@ -7,9 +7,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>English Name conversion into American Sign Language</h1>
+        <h1>American Sign Language Name Converter Engine</h1>
         <form id="name-entrybox">
                 <input type="text" id="textName" placeholder="Your First Name?">
                 <button type="submit" id='convertButton' value="submit">Submit</button>
@@ -18,7 +20,7 @@
             <p class='personName'></p>
             <video class="videoArea" autoplay></video>
             <br>
-            <button type="button" id="readyButton">Ready</button>
+            <button type="button" id="loopButton">Start the Loop</button>
             <div class="spellingName container">
                 <!-- Pics -->
             </div>
@@ -26,6 +28,7 @@
                 <!-- ASL Pics -->
             </div>
         </div>
+        <footer>© Shannon 'The Dude' Callahan 2020 </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="spellingMachine.js" async defer></script>
     </body>
