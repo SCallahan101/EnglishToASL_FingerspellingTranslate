@@ -190,7 +190,7 @@
         }
         
 
-        // function loopButton(){
+        function loopButton(){
             $("#loopButton").on('click', function(){
                 console.log("clicked");
                 $('#loopButton').attr("disabled", true);
@@ -216,9 +216,10 @@
                 }, mathForLoop);
             });
             // removeEventListener('click', loopButton);
-        // }
+        }
         // addEventListener('click', loopButton);
         // loopButton();
+        requestAnimationFrame(loopButton);
 
         // $("#loopButton").click(function(){
         //     console.log('testing settimer');
