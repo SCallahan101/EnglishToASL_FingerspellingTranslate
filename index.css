@@ -3,7 +3,6 @@
     margin: 0;
     font-family: 'Texturina', serif;
 }
-
 h1{
     text-align: center;
 }
@@ -52,7 +51,8 @@ h1{
 }
 .alphabetPic{
     width: 42%;
-    position: absolute;
+    /* display: none; */
+    /* position: absolute; */
     top: 1em;
     left: 0;
     right: 0;
@@ -70,24 +70,33 @@ h1{
     margin: 0 auto;
     border: none;
 }
-#loopButton{
+#readyButton{
     /* position: absolute;
     bottom: 40px;
     left: 0;
     right: 0;
     margin: 0 auto; */
-    margin-top: 10px;
+    margin: 10px;
     /* height: 40px;
     width: 100px; */
     padding: 10px;
     font-size: 20px;
+}
+#slideButtons{
+
+}
+.directionButton{
+    margin: 10px;
+    padding: 5px;
+    width: 110px;
+    font-size: 18px;
 }
 .alphabetBlocks{
     /* position: absolute;
     bottom: 65px;
     right: 0;
     left: 0; */
-    margin-top: 400px;
+    /* margin-top: 400px; */
 }
 .blockBox{
     width: 100px;
@@ -108,7 +117,7 @@ footer{
          height: unset;
      }
      .alphabetBlocks{
-         margin-top: 250px;
+         /* margin-top: 250px; */
      }
      .blockBox{
          width: 15%;
@@ -122,7 +131,7 @@ footer{
         width: 82%;
     }
     .alphabetBlocks{
-        margin-top: 59%;
+        /* margin-top: 59%; */
     }
     .blockBox{
         width: 10%;
@@ -136,7 +145,7 @@ footer{
         width: 82%;
      }
      .alphabetBlocks{
-        margin-top: 57%;
+        /* margin-top: 57%; */
      }
      .blockBox{
          width: 10%;
@@ -155,7 +164,7 @@ footer{
     max-width: 744px;
      }
      .alphabetBlocks{
-        margin-top: 50%;
+        /* margin-top: 50%; */
      }
      .blockBox{
          width: 8%;

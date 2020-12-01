@@ -131,7 +131,8 @@
             aslPic: 'AlphabetData/ASL_Z.JPG'
         }
     ];
-    $("#loopButton").hide();
+    $("#readyButton").hide();
+    $(".directionButton").hide();
     
     $("#name-entrybox").submit(e => {
         e.preventDefault();
@@ -148,7 +149,7 @@
            // empty the append part
            ``
         )  
-        $("#loopButton").show();
+        $("#readyButton").show();
         // $("#repeatLoopButton").show();  
         // resultValue;
         let characters = resultValue.split('');
@@ -181,45 +182,87 @@
             console.log("asl pic: " + aslFile);
 
             $(".spellingName").append(
-                `<img src="${file}" class='alphabetPic'><img src="AlphabetData/Blank.JPG" class="emptyImg">`
+                `<img src="${file}" class='alphabetPic'>`
                 );
             $(".alphabetBlocks").append(`
                 <img src="${aslFile}" class="blockBox">
             `);
+            // $(".spellingName").prepend(`<img src="AlphabetData/Blank.JPG" class="emptyImg">`);
+            // <img src="AlphabetData/Blank.JPG" class="emptyImg">
+            $(".alphabetPic").hide();
+            // $(".directionButton").hide();
             $(".alphabetBlocks").hide();
         }
-        
-
-        function loopButton(){
-            $("#loopButton").on('click', function(){
-                console.log("clicked");
-                $('#loopButton').attr("disabled", true);
+        $("#readyButton").on('click', function(){
+            console.log("Ready button clicked");
+                $('#readyButton').attr("disabled", true);
+                let perPic = $('.container img:first');
+                $(perPic).show();
+                $(".directionButton").show();
                 $(".alphabetBlocks").show(); 
-                let theSetUp;
-                function picturesAnimation() {
-                    let perPic = $('.container img:first');
-                    perPic.hide();
-                    $('.container').append(perPic);
-                    perPic.fadeIn();
-                };
-                theSetUp = setInterval(function(){
-                    picturesAnimation();
-                }, 1000);
-                // let stopGap = clearInterval(theSetUp);
-                let numForLoop = localStorage.getItem('num');
-                let mathForLoop = (numForLoop * 1000) * 2;
-                console.log(mathForLoop);
-                setTimeout(function(){
-                    console.log('time out');
-                    clearInterval(theSetUp);
-                    $('#loopButton').attr("disabled", false);
-                }, mathForLoop);
-            });
-            // removeEventListener('click', loopButton);
+        })
+
+
+        let slideIndex = 1;
+        presentImg(slideIndex);
+        function nextSlide(n){
+            // console.log(n);
+            presentImg(slideIndex += n);
         }
+        function currentSlide(n){
+            presentImg(slideIndex = n);
+        }
+        function presentImg(n){
+            // $('.container').append("img");
+            let i;
+            const slides = document.getElementsByClassName("alphabetPic");
+            if (n > slides.length){slideIndex = 1}
+            if(n < 1){slideIndex = slides.length}
+            for(i = 0; i < slides.length; i++){
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+        nextSlide();
+        currentSlide();
+        presentImg();
+        
+        // $(".next").on('click', function(){
+        //     console.log("Next button clicked");
+        //     let perPic = $('.container img:first');
+        //     $('.container').append(perPic);
+        //     perPic.style.zIndex = '-1';
+        //     // perPic.hide();
+        // })
+        // function loopButton(){
+            // $("#loopButton").on('click', function(){
+            //     console.log("clicked");
+            //     $('#loopButton').attr("disabled", true);
+            //     $(".alphabetBlocks").show(); 
+            //     let theSetUp;
+            //     function picturesAnimation() {
+            //         let perPic = $('.container img:first');
+            //         perPic.hide();
+            //         $('.container').append(perPic);
+            //         perPic.fadeIn();
+            //     };
+            //     theSetUp = setInterval(function(){
+            //         picturesAnimation();
+            //     }, 1000);
+            //     // let stopGap = clearInterval(theSetUp);
+            //     let numForLoop = localStorage.getItem('num');
+            //     let mathForLoop = (numForLoop * 1000) * 2;
+            //     console.log(mathForLoop);
+            //     setTimeout(function(){
+            //         console.log('time out');
+            //         clearInterval(theSetUp);
+            //         $('#loopButton').attr("disabled", false);
+            //     }, mathForLoop);
+            // });
+            // removeEventListener('click', loopButton);
+        // }
         // addEventListener('click', loopButton);
         // loopButton();
-        requestAnimationFrame(loopButton);
 
         // $("#loopButton").click(function(){
         //     console.log('testing settimer');
