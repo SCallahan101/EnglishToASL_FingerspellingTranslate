@@ -3,8 +3,13 @@
     margin: 0;
     font-family: 'Texturina', serif;
 }
+body{
+    color: #5ea4bc;
+    background-color: #142c41;
+}
 h1{
     text-align: center;
+    color: #f2bf5f;
 }
 #name-entrybox{
     width: 90%;
@@ -24,6 +29,11 @@ h1{
     width: 100px;
     font-size: 20px;
     margin: 10px 0px;
+    /* font-weight: bold;
+    border: 2px solid #0a6593; */
+    /* color: #0a6593; */
+    /* border-radius: 5px;
+    background-color: white; */
 }
 
 #result-container{
@@ -33,16 +43,19 @@ h1{
     border: 1px solid black;
     position: relative;
     text-align: center;
+    background-color: #edeeee;
 }
 .personName{
     text-align: center;
     margin: 10px;
     padding: 10px;
     font-size: 18px;
+    color: black;
 }
 .videoArea{
     width: 50%;
     /* height: 333.33px; */
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2); */
 }
 .spellingName{
     position: relative;
@@ -81,6 +94,11 @@ h1{
     width: 100px; */
     padding: 10px;
     font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #0a6593;
 }
 #slideButtons{
 
@@ -90,8 +108,14 @@ h1{
     padding: 5px;
     width: 110px;
     font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #0a6593;
 }
-.alphabetBlocks{
+.alphabetBlocks .blockBox:first-child{
+    box-shadow: 0px 0px 10px 6px rgba(240,115,85,1);
     /* position: absolute;
     bottom: 65px;
     right: 0;
@@ -100,6 +124,7 @@ h1{
 }
 .blockBox{
     width: 100px;
+    margin: 2px 5px;
 }
 footer{
     text-align: center;
