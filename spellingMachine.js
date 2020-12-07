@@ -199,7 +199,10 @@
                 let perPic = $('.container img:first');
                 $(perPic).show();
                 $(".directionButton").show();
-                $(".alphabetBlocks").show(); 
+                $(".alphabetBlocks").show();
+                // let perBlock = $('.alphabetBlocks img:first');
+                // $(perBlock).style.boxShadow = "10px 10px 5px #888"; 
+                // $('.alphabetBlocks .blockBox:first-child').style.boxShadow("10px 10px 5px #888");
         })
 
 
@@ -216,12 +219,35 @@
             // $('.container').append("img");
             let i;
             const slides = document.getElementsByClassName("alphabetPic");
+            // const letterBox = document.getElementsByClassName("blockBox");
             if (n > slides.length){slideIndex = 1}
             if(n < 1){slideIndex = slides.length}
             for(i = 0; i < slides.length; i++){
                 slides[i].style.display = "none";
             }
             slides[slideIndex-1].style.display = "block";
+
+            const letterBoxs = document.getElementsByClassName("blockBox");
+            // let currentLetter = letterBoxs[slideIndex-1];
+            let x;
+            if (n > letterBoxs.length){slideIndex = 1}
+            if(n < 1){slideIndex = letterBoxs.length}
+            for(x = 0; x < letterBoxs.length; x++){
+                letterBoxs[x].style.boxShadow = "none";
+            }
+            letterBoxs[slideIndex-1].style.boxShadow = "0px 0px 10px 6px rgba(240,115,85,1)";
+            // letterBoxs[0].style.boxShadow = "10px 10px 5px #888";
+
+            // currentLetter.style.boxShadow = "10px 10px 5px #888";
+            // $(currentLetter).css('box-shadow', '10px 10px 5px #888');
+            // if (n > letterBoxs.length){slideIndex = 1}
+            // if(n < 1){slideIndex = letterBoxs.length}
+            // for(i = 0; i < letterBoxs.length; i++){
+            //     letterBoxs[i].css("none");
+            // }
+            // letterBoxs[slideIndex-1].css('box-shadow', '10px 10px 5px #888');
+            // let currentLetter = letterBoxs[slideIndex-1];
+            // $(currentLetter).css('box-shadow', '10px 10px 5px #888');
         }
         nextSlide();
         currentSlide();
