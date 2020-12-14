@@ -13,11 +13,16 @@
     <body>
         <h1>American Sign Language Name Converter Engine</h1>
         <form id="name-entrybox">
-                <input type="text" id="textName" placeholder="Your First Name?">
+                <input type="text" id="textName" placeholder="Your First Name?" onkeydown="return /[a-z]/i.test(event.key)">
                 <button type="submit" id='convertButton' value="submit">Submit</button>
         </form>
         <div id="result-container">
             <p class='personName'></p>
+            <div id="intro-container">
+                <h2>Welcome to my converter engine site!</h2>
+                <p>I want to make this project a good and small introduction to American Sign Language</p>
+                <p>The project made and coded by <br> Shannon Callahan</p>
+            </div>
             <video class="videoArea" autoplay playsinline></video>
             <br>
             <button type="button" id="readyButton">Ready</button>
