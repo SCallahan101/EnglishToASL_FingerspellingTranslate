@@ -45,9 +45,22 @@ h1{
     text-align: center;
     background-color: #edeeee;
 }
+#intro-container{
+    width: 50%;
+    /* text-align: center; */
+    margin: 0 auto;
+    border: 3px solid;
+    padding: 10px;
+    color: #f2bf5f;
+    background-color: #142c41;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%; */
+}
 .personName{
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px 5px;
     padding: 10px;
     font-size: 18px;
     color: black;
@@ -89,7 +102,7 @@ h1{
     left: 0;
     right: 0;
     margin: 0 auto; */
-    margin: 10px;
+    margin: 0px 10px 10px;
     /* height: 40px;
     width: 100px; */
     padding: 10px;
@@ -115,7 +128,9 @@ h1{
     background-color: #0a6593;
 }
 .alphabetBlocks .blockBox:first-child{
-    box-shadow: 0px 0px 10px 6px rgba(240,115,85,1);
+    /* box-shadow: 0px 0px 10px 6px rgba(240,115,85,1); */
+    /* background: rgba(240,115,85,1); */
+    border: 2px solid rgba(240,115,85,1);
     /* position: absolute;
     bottom: 65px;
     right: 0;
@@ -125,12 +140,18 @@ h1{
 .blockBox{
     width: 100px;
     margin: 2px 5px;
+    border: 2px solid black;
 }
 footer{
     text-align: center;
     margin: 20px 0;
 }
  @media only screen and (min-width: 300px){
+    #intro-container{
+        font-size: 14px;
+        width: 75%;
+        position: unset;
+    }
      .videoArea{
          width: 90%;
      }
@@ -174,6 +195,12 @@ footer{
      }
      .blockBox{
          width: 10%;
+     }
+     #intro-container{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25%;
      }
  }
  @media only screen and (min-width: 1025px){

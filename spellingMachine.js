@@ -3,144 +3,155 @@
         {
             alphabet: 'A',
             imgFile: 'AlphabetData/A.JPG',
-            aslPic: 'AlphabetData/ASL_A.JPG'
+            aslPic: 'AlphabetData/ASL_A.svg'
         },
         {
             alphabet: 'B',
             imgFile: 'AlphabetData/B.JPG',
-            aslPic: 'AlphabetData/ASL_B.JPG'
+            aslPic: 'AlphabetData/ASL_B.svg'
         },
         {
             alphabet: 'C',
             imgFile: 'AlphabetData/C.JPG',
-            aslPic: 'AlphabetData/ASL_C.JPG'
+            aslPic: 'AlphabetData/ASL_C.svg'
         },
         {
             alphabet: 'D',
             imgFile: 'AlphabetData/D.JPG',
-            aslPic: 'AlphabetData/ASL_D.JPG'
+            aslPic: 'AlphabetData/ASL_D.svg'
         },
         {
             alphabet: 'E',
             imgFile: 'AlphabetData/E.JPG',
-            aslPic: 'AlphabetData/ASL_E.JPG'
+            aslPic: 'AlphabetData/ASL_E.svg'
         },
         {
             alphabet: 'F',
             imgFile: 'AlphabetData/F.JPG',
-            aslPic: 'AlphabetData/ASL_F.JPG'
+            aslPic: 'AlphabetData/ASL_F.svg'
         },
         {
             alphabet: 'G',
             imgFile: 'AlphabetData/G.JPG',
-            aslPic: 'AlphabetData/ASL_G.JPG'
+            aslPic: 'AlphabetData/ASL_G.svg'
         },
         {
             alphabet: 'H',
             imgFile: 'AlphabetData/H.JPG',
-            aslPic: 'AlphabetData/ASL_H.JPG'
+            aslPic: 'AlphabetData/ASL_H.svg'
         },
         {
             alphabet: 'I',
             imgFile: 'AlphabetData/I.JPG',
-            aslPic: 'AlphabetData/ASL_I.JPG'
+            aslPic: 'AlphabetData/ASL_I.svg'
         },
         {
             alphabet: 'J',
             imgFile: 'AlphabetData/J.JPG',
-            aslPic: 'AlphabetData/ASL_J.JPG'
+            aslPic: 'AlphabetData/ASL_J.svg'
         },
         {
             alphabet: 'K',
             imgFile: 'AlphabetData/K.JPG',
-            aslPic: 'AlphabetData/ASL_K.JPG'
+            aslPic: 'AlphabetData/ASL_K.svg'
         },
         {
             alphabet: 'L',
             imgFile: 'AlphabetData/L.JPG',
-            aslPic: 'AlphabetData/ASL_L.JPG'
+            aslPic: 'AlphabetData/ASL_L.svg'
         },
         {
             alphabet: 'M',
             imgFile: 'AlphabetData/M.JPG',
-            aslPic: 'AlphabetData/ASL_M.JPG'
+            aslPic: 'AlphabetData/ASL_M.svg'
         },
         {
             alphabet: 'N',
             imgFile: 'AlphabetData/N.JPG',
-            aslPic: 'AlphabetData/ASL_N.JPG'
+            aslPic: 'AlphabetData/ASL_N.svg'
         },
         {
             alphabet: 'O',
             imgFile: 'AlphabetData/O.JPG',
-            aslPic: 'AlphabetData/ASL_O.JPG'
+            aslPic: 'AlphabetData/ASL_O.svg'
         },
         {
             alphabet: 'P',
             imgFile: 'AlphabetData/P.JPG',
-            aslPic: 'AlphabetData/ASL_P.JPG'
+            aslPic: 'AlphabetData/ASL_P.svg'
         },
         {
             alphabet: 'Q',
             imgFile: 'AlphabetData/Q.JPG',
-            aslPic: 'AlphabetData/ASL_Q.JPG'
+            aslPic: 'AlphabetData/ASL_Q.svg'
         },
         {
             alphabet: 'R',
             imgFile: 'AlphabetData/R.JPG',
-            aslPic: 'AlphabetData/ASL_R.JPG'
+            aslPic: 'AlphabetData/ASL_R.svg'
         },
         {
             alphabet: 'S',
             imgFile: 'AlphabetData/S.JPG',
-            aslPic: 'AlphabetData/ASL_S.JPG'
+            aslPic: 'AlphabetData/ASL_S.svg'
         },
         {
             alphabet: 'T',
             imgFile: 'AlphabetData/T.JPG',
-            aslPic: 'AlphabetData/ASL_T.JPG'
+            aslPic: 'AlphabetData/ASL_T.svg'
         },
         {
             alphabet: 'U',
             imgFile: 'AlphabetData/U.JPG',
-            aslPic: 'AlphabetData/ASL_U.JPG'
+            aslPic: 'AlphabetData/ASL_U.svg'
         },
         {
             alphabet: 'V',
             imgFile: 'AlphabetData/V.JPG',
-            aslPic: 'AlphabetData/ASL_V.JPG'
+            aslPic: 'AlphabetData/ASL_V.svg'
         },
         {
             alphabet: 'W',
             imgFile: 'AlphabetData/W.JPG',
-            aslPic: 'AlphabetData/ASL_W.JPG'
+            aslPic: 'AlphabetData/ASL_W.svg'
         },
         {
             alphabet: 'X',
             imgFile: 'AlphabetData/X.JPG',
-            aslPic: 'AlphabetData/ASL_X.JPG'
+            aslPic: 'AlphabetData/ASL_X.svg'
         },
         {
             alphabet: 'Y',
             imgFile: 'AlphabetData/Y.JPG',
-            aslPic: 'AlphabetData/ASL_Y.JPG'
+            aslPic: 'AlphabetData/ASL_Y.svg'
         },
         {
             alphabet: 'Z',
             imgFile: 'AlphabetData/Z.JPG',
-            aslPic: 'AlphabetData/ASL_Z.JPG'
+            aslPic: 'AlphabetData/ASL_Z.svg'
         }
     ];
     $("#readyButton").hide();
     $(".directionButton").hide();
     
+    // $('#textName').on('keypress', function (event) {
+    //     var regex = new RegExp("^[a-zA-Z0-9]+$");
+    //     var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+    //     if (!regex.test(key)) {
+    //        event.preventDefault();
+    //        return false;
+    //     }
+    // });
+
     $("#name-entrybox").submit(e => {
         e.preventDefault();
         const resultValue = $('#textName').val();
         console.log("Textbox value: " + resultValue);
         $(".personName").text(`Your name ${resultValue}` + ` in English. The American Sign Language will spelling out like this!`);
         // Pop the intro
+        $("#intro-container").remove();
         $(".videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
+        $('#readyButton').attr("disabled", false);
         $(".spellingName").html(
             // empty the append part
             ``
@@ -150,6 +161,7 @@
            ``
         )  
         $("#readyButton").show();
+        $(".directionButton").hide();
         // $("#repeatLoopButton").show();  
         // resultValue;
         let characters = resultValue.split('');
@@ -159,6 +171,7 @@
         let letter = {};
         for(i = 0; i < characters.length; i++){
             letter = characters[i];
+            console.log("char " + i);
             // console.log(characters.length);
             let num = characters.length;
             localStorage.setItem('num' , num);
@@ -171,7 +184,7 @@
             // console.log(data + " - testing the receiver");
             let capABC = data.toUpperCase();
             // console.log(capABC + " = Capitalize Completed");
-            let test = spellChars.filter(obj => obj.alphabet === capABC);
+            let test = spellChars.filter((obj => obj.alphabet === capABC));
             console.log("array received: " + JSON.stringify(test));
             // let srcData = test.filter(url => {
             //     return url.imgFile;
@@ -180,12 +193,20 @@
             console.log("url: " + file);
             let aslFile = test.map(b => b.aslPic);
             console.log("asl pic: " + aslFile);
-
+            // let numForLoop = localStorage.getItem('num');
+            // console.log("testing get the number: " + numForLoop);
+            // n = numForLoop;
+            // result = "";
+            // for(let i = 0; i < n; i++){
+            //     console.log("increment " + i);
+            //     result = i;
+            // }
+            let num = 0;
             $(".spellingName").append(
                 `<img src="${file}" class='alphabetPic'>`
                 );
             $(".alphabetBlocks").append(`
-                <img src="${aslFile}" class="blockBox">
+                <img src="${aslFile}" class="blockBox" onclick=()>
             `);
             // $(".spellingName").prepend(`<img src="AlphabetData/Blank.JPG" class="emptyImg">`);
             // <img src="AlphabetData/Blank.JPG" class="emptyImg">
@@ -200,6 +221,10 @@
                 $(perPic).show();
                 $(".directionButton").show();
                 $(".alphabetBlocks").show();
+                $(".videoArea").hide();
+                $("#result-container br").remove();
+                $("#readyButton").hide();
+                $("#readyButton").html("Check it Out!");
                 // let perBlock = $('.alphabetBlocks img:first');
                 // $(perBlock).style.boxShadow = "10px 10px 5px #888"; 
                 // $('.alphabetBlocks .blockBox:first-child').style.boxShadow("10px 10px 5px #888");
@@ -233,9 +258,11 @@
             if (n > letterBoxs.length){slideIndex = 1}
             if(n < 1){slideIndex = letterBoxs.length}
             for(x = 0; x < letterBoxs.length; x++){
-                letterBoxs[x].style.boxShadow = "none";
+                // letterBoxs[x].style.boxShadow = "none";
+                letterBoxs[x].style.border = "2px solid black";
             }
-            letterBoxs[slideIndex-1].style.boxShadow = "0px 0px 10px 6px rgba(240,115,85,1)";
+            // letterBoxs[slideIndex-1].style.boxShadow = "0px 0px 10px 6px rgba(240,115,85,1)";
+            letterBoxs[slideIndex-1].style.border = "2px solid rgba(240,115,85,1)";
             // letterBoxs[0].style.boxShadow = "10px 10px 5px #888";
 
             // currentLetter.style.boxShadow = "10px 10px 5px #888";
