@@ -65,8 +65,8 @@ h1{
     font-size: 18px;
     color: black;
 }
-.videoArea{
-    width: 50%;
+#videoArea{
+    /* width: 50%; */
     /* height: 333.33px; */
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2); */
 }
@@ -130,7 +130,7 @@ h1{
 .alphabetBlocks .blockBox:first-child{
     /* box-shadow: 0px 0px 10px 6px rgba(240,115,85,1); */
     /* background: rgba(240,115,85,1); */
-    border: 2px solid rgba(240,115,85,1);
+    border: 3px solid rgba(240,115,85,1);
     /* position: absolute;
     bottom: 65px;
     right: 0;
@@ -152,7 +152,7 @@ footer{
         width: 75%;
         position: unset;
     }
-     .videoArea{
+     #videoArea{
          width: 90%;
      }
      .alphabetPic{
@@ -184,6 +184,9 @@ footer{
     }
  }
  @media only screen and (min-width: 768px){
+     #result-container{
+        height: 447px;
+     }
      .alphabetPic{
         width: 80%;
      }
@@ -204,7 +207,7 @@ footer{
      }
  }
  @media only screen and (min-width: 1025px){
-     .videoArea{
+     #videoArea{
          width: 795px;
      }
     .alphabetPic{

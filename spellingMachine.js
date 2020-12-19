@@ -133,6 +133,8 @@
     ];
     $("#readyButton").hide();
     $(".directionButton").hide();
+    // document.getElementById("videoArea").style.width = "0px";
+ 
     
     // $('#textName').on('keypress', function (event) {
     //     var regex = new RegExp("^[a-zA-Z0-9]+$");
@@ -145,12 +147,15 @@
 
     $("#name-entrybox").submit(e => {
         e.preventDefault();
+        document.getElementById("result-container").style.height = "unset";
+        $("#intro-container").after("<video id='videoArea' autoplay playsinline></video>");
+        // document.getElementById("videoArea").style.width = "795px";
         const resultValue = $('#textName').val();
         console.log("Textbox value: " + resultValue);
         $(".personName").text(`Your name ${resultValue}` + ` in English. The American Sign Language will spelling out like this!`);
         // Pop the intro
         $("#intro-container").remove();
-        $(".videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
+        $("#videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
         $('#readyButton').attr("disabled", false);
         $(".spellingName").html(
             // empty the append part
@@ -221,7 +226,7 @@
                 $(perPic).show();
                 $(".directionButton").show();
                 $(".alphabetBlocks").show();
-                $(".videoArea").hide();
+                $("#videoArea").hide();
                 $("#result-container br").remove();
                 $("#readyButton").hide();
                 $("#readyButton").html("Check it Out!");
@@ -262,7 +267,7 @@
                 letterBoxs[x].style.border = "2px solid black";
             }
             // letterBoxs[slideIndex-1].style.boxShadow = "0px 0px 10px 6px rgba(240,115,85,1)";
-            letterBoxs[slideIndex-1].style.border = "2px solid rgba(240,115,85,1)";
+            letterBoxs[slideIndex-1].style.border = "3px solid rgba(240,115,85,1)";
             // letterBoxs[0].style.boxShadow = "10px 10px 5px #888";
 
             // currentLetter.style.boxShadow = "10px 10px 5px #888";
