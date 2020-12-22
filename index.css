@@ -11,6 +11,11 @@ h1{
     text-align: center;
     color: #f2bf5f;
 }
+#countVisitors{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
 #name-entrybox{
     width: 90%;
     margin: 0 auto;
@@ -58,7 +63,7 @@ h1{
     right: 0;
     top: 25%; */
 }
-.personName{
+.wordInput{
     text-align: center;
     margin: 10px 10px 5px;
     padding: 10px;
@@ -77,12 +82,15 @@ h1{
 }
 .alphabetPic{
     width: 42%;
-    /* display: none; */
+    display: none;
     /* position: absolute; */
     top: 1em;
     left: 0;
     right: 0;
     margin: 0 auto;
+}
+.alphabetPic img:first{
+    display: block;
 }
 .emptyImg{
     color: white;
