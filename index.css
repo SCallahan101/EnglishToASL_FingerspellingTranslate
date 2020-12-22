@@ -12,9 +12,10 @@ h1{
     color: #f2bf5f;
 }
 #countVisitors{
-    position: absolute;
+    /* position: absolute;
     right: 12px;
-    top: 12px;
+    top: 12px; */
+    text-align: center;
 }
 #name-entrybox{
     width: 90%;
