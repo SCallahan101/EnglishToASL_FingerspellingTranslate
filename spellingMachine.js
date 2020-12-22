@@ -2,132 +2,132 @@
     const spellChars = [
         {
             alphabet: 'A',
-            imgFile: 'AlphabetData/A.JPG',
+            imgFile: 'AlphabetData/Formal_A.JPG',
             aslPic: 'AlphabetData/ASL_A.svg'
         },
         {
             alphabet: 'B',
-            imgFile: 'AlphabetData/B.JPG',
+            imgFile: 'AlphabetData/Formal_B.JPG',
             aslPic: 'AlphabetData/ASL_B.svg'
         },
         {
             alphabet: 'C',
-            imgFile: 'AlphabetData/C.JPG',
+            imgFile: 'AlphabetData/Formal_C.JPG',
             aslPic: 'AlphabetData/ASL_C.svg'
         },
         {
             alphabet: 'D',
-            imgFile: 'AlphabetData/D.JPG',
+            imgFile: 'AlphabetData/Formal_D.JPG',
             aslPic: 'AlphabetData/ASL_D.svg'
         },
         {
             alphabet: 'E',
-            imgFile: 'AlphabetData/E.JPG',
+            imgFile: 'AlphabetData/Formal_E.JPG',
             aslPic: 'AlphabetData/ASL_E.svg'
         },
         {
             alphabet: 'F',
-            imgFile: 'AlphabetData/F.JPG',
+            imgFile: 'AlphabetData/Formal_F.JPG',
             aslPic: 'AlphabetData/ASL_F.svg'
         },
         {
             alphabet: 'G',
-            imgFile: 'AlphabetData/G.JPG',
+            imgFile: 'AlphabetData/Formal_G.JPG',
             aslPic: 'AlphabetData/ASL_G.svg'
         },
         {
             alphabet: 'H',
-            imgFile: 'AlphabetData/H.JPG',
+            imgFile: 'AlphabetData/Formal_H.JPG',
             aslPic: 'AlphabetData/ASL_H.svg'
         },
         {
             alphabet: 'I',
-            imgFile: 'AlphabetData/I.JPG',
+            imgFile: 'AlphabetData/Formal_I.JPG',
             aslPic: 'AlphabetData/ASL_I.svg'
         },
         {
             alphabet: 'J',
-            imgFile: 'AlphabetData/J.JPG',
+            imgFile: 'AlphabetData/Formal_J.JPG',
             aslPic: 'AlphabetData/ASL_J.svg'
         },
         {
             alphabet: 'K',
-            imgFile: 'AlphabetData/K.JPG',
+            imgFile: 'AlphabetData/Formal_K.JPG',
             aslPic: 'AlphabetData/ASL_K.svg'
         },
         {
             alphabet: 'L',
-            imgFile: 'AlphabetData/L.JPG',
+            imgFile: 'AlphabetData/Formal_L.JPG',
             aslPic: 'AlphabetData/ASL_L.svg'
         },
         {
             alphabet: 'M',
-            imgFile: 'AlphabetData/M.JPG',
+            imgFile: 'AlphabetData/Formal_M.JPG',
             aslPic: 'AlphabetData/ASL_M.svg'
         },
         {
             alphabet: 'N',
-            imgFile: 'AlphabetData/N.JPG',
+            imgFile: 'AlphabetData/Formal_N.JPG',
             aslPic: 'AlphabetData/ASL_N.svg'
         },
         {
             alphabet: 'O',
-            imgFile: 'AlphabetData/O.JPG',
+            imgFile: 'AlphabetData/Formal_O.JPG',
             aslPic: 'AlphabetData/ASL_O.svg'
         },
         {
             alphabet: 'P',
-            imgFile: 'AlphabetData/P.JPG',
+            imgFile: 'AlphabetData/Formal_P.JPG',
             aslPic: 'AlphabetData/ASL_P.svg'
         },
         {
             alphabet: 'Q',
-            imgFile: 'AlphabetData/Q.JPG',
+            imgFile: 'AlphabetData/Formal_Q.JPG',
             aslPic: 'AlphabetData/ASL_Q.svg'
         },
         {
             alphabet: 'R',
-            imgFile: 'AlphabetData/R.JPG',
+            imgFile: 'AlphabetData/Formal_R.JPG',
             aslPic: 'AlphabetData/ASL_R.svg'
         },
         {
             alphabet: 'S',
-            imgFile: 'AlphabetData/S.JPG',
+            imgFile: 'AlphabetData/Formal_S.JPG',
             aslPic: 'AlphabetData/ASL_S.svg'
         },
         {
             alphabet: 'T',
-            imgFile: 'AlphabetData/T.JPG',
+            imgFile: 'AlphabetData/Formal_T.JPG',
             aslPic: 'AlphabetData/ASL_T.svg'
         },
         {
             alphabet: 'U',
-            imgFile: 'AlphabetData/U.JPG',
+            imgFile: 'AlphabetData/Formal_U.JPG',
             aslPic: 'AlphabetData/ASL_U.svg'
         },
         {
             alphabet: 'V',
-            imgFile: 'AlphabetData/V.JPG',
+            imgFile: 'AlphabetData/Formal_V.JPG',
             aslPic: 'AlphabetData/ASL_V.svg'
         },
         {
             alphabet: 'W',
-            imgFile: 'AlphabetData/W.JPG',
+            imgFile: 'AlphabetData/Formal_W.JPG',
             aslPic: 'AlphabetData/ASL_W.svg'
         },
         {
             alphabet: 'X',
-            imgFile: 'AlphabetData/X.JPG',
+            imgFile: 'AlphabetData/Formal_X.JPG',
             aslPic: 'AlphabetData/ASL_X.svg'
         },
         {
             alphabet: 'Y',
-            imgFile: 'AlphabetData/Y.JPG',
+            imgFile: 'AlphabetData/Formal_Y.JPG',
             aslPic: 'AlphabetData/ASL_Y.svg'
         },
         {
             alphabet: 'Z',
-            imgFile: 'AlphabetData/Z.JPG',
+            imgFile: 'AlphabetData/Formal_Z.JPG',
             aslPic: 'AlphabetData/ASL_Z.svg'
         }
     ];
@@ -145,17 +145,41 @@
     //     }
     // });
 
+    //Counting the number of visitors
+    let updateTheNumber = (storageValue) => {
+        localStorage.setItem("last-count-value", storageValue);
+        sessionStorage.setItem("current-count", storageValue);
+    };
+
+    let getVisitorsCount = () => {
+        let lastSessionValue = localStorage.getItem("last-count-value");
+        if(lastSessionValue === null){
+            updateTheNumber(1);
+        }else if(lastSessionValue && sessionStorage.getItem("current-count") === null){
+            lastSessionValue++;
+            updateTheNumber(lastSessionValue);
+        }
+        console.log("The visitors count: " + lastSessionValue);
+        $("#countVisitors").text(`Number of visitors: ${lastSessionValue}`);
+        return parseInt(lastSessionValue);
+    }
+    getVisitorsCount();
+
+
+
+
+
     $("#name-entrybox").submit(e => {
         e.preventDefault();
         document.getElementById("result-container").style.height = "unset";
-        $("#intro-container").after("<video id='videoArea' autoplay playsinline></video>");
+        // $("#intro-container").after("<video id='videoArea' autoplay playsinline></video>");
         // document.getElementById("videoArea").style.width = "795px";
         const resultValue = $('#textName').val();
         console.log("Textbox value: " + resultValue);
-        $(".personName").text(`Your name ${resultValue}` + ` in English. The American Sign Language will spelling out like this!`);
+        $(".wordInput").text(`English: ${resultValue}` + `. The American Sign Language will spelling out like this!`);
         // Pop the intro
         $("#intro-container").remove();
-        $("#videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
+        // $("#videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
         $('#readyButton').attr("disabled", false);
         $(".spellingName").html(
             // empty the append part
@@ -215,25 +239,30 @@
             `);
             // $(".spellingName").prepend(`<img src="AlphabetData/Blank.JPG" class="emptyImg">`);
             // <img src="AlphabetData/Blank.JPG" class="emptyImg">
-            $(".alphabetPic").hide();
-            // $(".directionButton").hide();
-            $(".alphabetBlocks").hide();
+            let perPic = $('.container img:first');
+            $(perPic).show();
+            $(".directionButton").show();
+            $(".alphabetBlocks").show();
+            // // $("#videoArea").hide();
+            // $("#result-container br").remove();
+            // $("#readyButton").hide();
+            // $("#readyButton").html("Check it Out!");
         }
-        $("#readyButton").on('click', function(){
-            console.log("Ready button clicked");
-                $('#readyButton').attr("disabled", true);
-                let perPic = $('.container img:first');
-                $(perPic).show();
-                $(".directionButton").show();
-                $(".alphabetBlocks").show();
-                $("#videoArea").hide();
-                $("#result-container br").remove();
-                $("#readyButton").hide();
-                $("#readyButton").html("Check it Out!");
-                // let perBlock = $('.alphabetBlocks img:first');
-                // $(perBlock).style.boxShadow = "10px 10px 5px #888"; 
-                // $('.alphabetBlocks .blockBox:first-child').style.boxShadow("10px 10px 5px #888");
-        })
+        // $("#readyButton").on('click', function(){
+        //     console.log("Ready button clicked");
+        //         $('#readyButton').attr("disabled", true);
+        //         let perPic = $('.container img:first');
+        //         $(perPic).show();
+        //         $(".directionButton").show();
+        //         $(".alphabetBlocks").show();
+        //         // $("#videoArea").hide();
+        //         $("#result-container br").remove();
+        //         $("#readyButton").hide();
+        //         $("#readyButton").html("Check it Out!");
+        //         // let perBlock = $('.alphabetBlocks img:first');
+        //         // $(perBlock).style.boxShadow = "10px 10px 5px #888"; 
+        //         // $('.alphabetBlocks .blockBox:first-child').style.boxShadow("10px 10px 5px #888");
+        // })
 
 
         let slideIndex = 1;
