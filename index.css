@@ -12,9 +12,6 @@ h1{
     color: #f2bf5f;
 }
 #countVisitors{
-    /* position: absolute;
-    right: 12px;
-    top: 12px; */
     text-align: center;
 }
 #name-entrybox{
@@ -23,7 +20,6 @@ h1{
     text-align: center;
 }
 #textName{
-    /* height: 16px; */
     font-size: 20px;
     width: 185px;
     text-align: center;
@@ -35,17 +31,11 @@ h1{
     width: 100px;
     font-size: 20px;
     margin: 10px 0px;
-    /* font-weight: bold;
-    border: 2px solid #0a6593; */
-    /* color: #0a6593; */
-    /* border-radius: 5px;
-    background-color: white; */
 }
 
 #result-container{
     width: 90%;
     margin: 0 auto;
-    /* height: 140vh; */
     border: 1px solid black;
     position: relative;
     text-align: center;
@@ -53,16 +43,11 @@ h1{
 }
 #intro-container{
     width: 50%;
-    /* text-align: center; */
     margin: 0 auto;
     border: 3px solid;
     padding: 10px;
     color: #f2bf5f;
     background-color: #142c41;
-    /* position: absolute;
-    left: 0;
-    right: 0;
-    top: 25%; */
 }
 .wordInput{
     text-align: center;
@@ -71,15 +56,8 @@ h1{
     font-size: 18px;
     color: black;
 }
-#videoArea{
-    /* width: 50%; */
-    /* height: 333.33px; */
-    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2); */
-}
 .spellingName{
     position: relative;
-    /* border: 2px solid green; */
-    /* display: inline; */
 }
 .alphabetPic{
     width: 42%;
@@ -106,14 +84,7 @@ h1{
     border: none;
 }
 #readyButton{
-    /* position: absolute;
-    bottom: 40px;
-    left: 0;
-    right: 0;
-    margin: 0 auto; */
     margin: 0px 10px 10px;
-    /* height: 40px;
-    width: 100px; */
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -121,9 +92,6 @@ h1{
     color: white;
     border-radius: 5px;
     background-color: #0a6593;
-}
-#slideButtons{
-
 }
 .directionButton{
     margin: 10px;
@@ -140,11 +108,6 @@ h1{
     /* box-shadow: 0px 0px 10px 6px rgba(240,115,85,1); */
     /* background: rgba(240,115,85,1); */
     border: 3px solid rgba(240,115,85,1);
-    /* position: absolute;
-    bottom: 65px;
-    right: 0;
-    left: 0; */
-    /* margin-top: 400px; */
 }
 .blockBox{
     width: 100px;
@@ -171,9 +134,6 @@ footer{
          width: 92%;
          height: unset;
      }
-     .alphabetBlocks{
-         /* margin-top: 250px; */
-     }
      .blockBox{
          width: 15%;
      }
@@ -184,9 +144,6 @@ footer{
     }
     .emptyImg{
         width: 82%;
-    }
-    .alphabetBlocks{
-        /* margin-top: 59%; */
     }
     .blockBox{
         width: 10%;
@@ -201,9 +158,6 @@ footer{
      }
      .emptyImg{
         width: 82%;
-     }
-     .alphabetBlocks{
-        /* margin-top: 57%; */
      }
      .blockBox{
          width: 10%;
@@ -226,9 +180,6 @@ footer{
      .emptyImg{
         width: 72%;
     max-width: 744px;
-     }
-     .alphabetBlocks{
-        /* margin-top: 50%; */
      }
      .blockBox{
          width: 8%;

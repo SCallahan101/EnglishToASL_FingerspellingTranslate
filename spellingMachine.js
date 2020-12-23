@@ -133,38 +133,27 @@
     ];
     $("#readyButton").hide();
     $(".directionButton").hide();
-    // document.getElementById("videoArea").style.width = "0px";
- 
-    
-    // $('#textName').on('keypress', function (event) {
-    //     var regex = new RegExp("^[a-zA-Z0-9]+$");
-    //     var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
-    //     if (!regex.test(key)) {
-    //        event.preventDefault();
-    //        return false;
-    //     }
-    // });
 
     //Counting the number of visitors
-    let updateTheNumber = (storageValue) => {
-        localStorage.setItem("last-count-value", storageValue);
-        sessionStorage.setItem("current-count", storageValue);
-    };
+    // let updateTheNumber = (storageValue) => {
+    //     localStorage.setItem("last-count-value", storageValue);
+    //     sessionStorage.setItem("current-count", storageValue);
+    // };
 
-    let getVisitorsCount = () => {
-        let lastSessionValue = localStorage.getItem("last-count-value");
-        if(lastSessionValue === null){
-            updateTheNumber(1);
-        }else if(lastSessionValue && sessionStorage.getItem("current-count") === null){
-            lastSessionValue++;
-            updateTheNumber(lastSessionValue);
-        }
-        console.log("The visitors count: " + lastSessionValue);
-        $("#countVisitors").text(`Number of visitors: ${lastSessionValue}`);
-        return parseInt(lastSessionValue);
-    }
-    getVisitorsCount();
-
+    // let getVisitorsCount = () => {
+    //     let lastSessionValue = localStorage.getItem("last-count-value");
+    //     if(lastSessionValue === null){
+    //         updateTheNumber(1);
+    //     }else if(lastSessionValue && sessionStorage.getItem("current-count") === null){
+    //         lastSessionValue++;
+    //         updateTheNumber(lastSessionValue);
+    //     }
+    //     console.log("The visitors count: " + lastSessionValue);
+    //     $("#countVisitors").text(`Number of visitors: ${lastSessionValue}`);
+    //     return parseInt(lastSessionValue);
+    // }
+    // getVisitorsCount();
+    //NOT WORKING ON ALL BOARD. 
 
 
 
@@ -275,7 +264,6 @@
             presentImg(slideIndex = n);
         }
         function presentImg(n){
-            // $('.container').append("img");
             let i;
             const slides = document.getElementsByClassName("alphabetPic");
             // const letterBox = document.getElementsByClassName("blockBox");
@@ -297,100 +285,8 @@
             }
             // letterBoxs[slideIndex-1].style.boxShadow = "0px 0px 10px 6px rgba(240,115,85,1)";
             letterBoxs[slideIndex-1].style.border = "3px solid rgba(240,115,85,1)";
-            // letterBoxs[0].style.boxShadow = "10px 10px 5px #888";
-
-            // currentLetter.style.boxShadow = "10px 10px 5px #888";
-            // $(currentLetter).css('box-shadow', '10px 10px 5px #888');
-            // if (n > letterBoxs.length){slideIndex = 1}
-            // if(n < 1){slideIndex = letterBoxs.length}
-            // for(i = 0; i < letterBoxs.length; i++){
-            //     letterBoxs[i].css("none");
-            // }
-            // letterBoxs[slideIndex-1].css('box-shadow', '10px 10px 5px #888');
-            // let currentLetter = letterBoxs[slideIndex-1];
-            // $(currentLetter).css('box-shadow', '10px 10px 5px #888');
         }
-        nextSlide();
-        currentSlide();
-        presentImg();
-        
-        // $(".next").on('click', function(){
-        //     console.log("Next button clicked");
-        //     let perPic = $('.container img:first');
-        //     $('.container').append(perPic);
-        //     perPic.style.zIndex = '-1';
-        //     // perPic.hide();
-        // })
-        // function loopButton(){
-            // $("#loopButton").on('click', function(){
-            //     console.log("clicked");
-            //     $('#loopButton').attr("disabled", true);
-            //     $(".alphabetBlocks").show(); 
-            //     let theSetUp;
-            //     function picturesAnimation() {
-            //         let perPic = $('.container img:first');
-            //         perPic.hide();
-            //         $('.container').append(perPic);
-            //         perPic.fadeIn();
-            //     };
-            //     theSetUp = setInterval(function(){
-            //         picturesAnimation();
-            //     }, 1000);
-            //     // let stopGap = clearInterval(theSetUp);
-            //     let numForLoop = localStorage.getItem('num');
-            //     let mathForLoop = (numForLoop * 1000) * 2;
-            //     console.log(mathForLoop);
-            //     setTimeout(function(){
-            //         console.log('time out');
-            //         clearInterval(theSetUp);
-            //         $('#loopButton').attr("disabled", false);
-            //     }, mathForLoop);
-            // });
-            // removeEventListener('click', loopButton);
-        // }
-        // addEventListener('click', loopButton);
-        // loopButton();
-
-        // $("#loopButton").click(function(){
-        //     console.log('testing settimer');
-        //     let stopGap;
-        //     let target = $('.container img:first');
-        //     function stop(){
-        //         target.stop();
-        //     };
-        //     stopGap = clearInterval(function(){
-        //         stop();
-        //     }, 7000);
-        // });
-
-//         function endTheLoop(){
-//             let numForLoop = localStorage.getItem('num');
-//             let mathForLoop = numForLoop * 1000;
-//             // console.log(mathForLoop);
-            
-//             clearInterval(function(){picturesAnimation();}, mathForLoop);
-//         }
-
-
-
-// endTheLoop();
+nextSlide();
+currentSlide();
+presentImg();
 setUpPics();
-      
-            // $("#readyButton").click(function(){
-            //     console.log("clicked");
-            // });
-
-        
-
-    
-// console.log(characters[i] + " - test enact");
-//         // let test = spellChars.map(characters[i]);
-//         let test = spellChars.alphabet.filter(element === characters[i]);
-//         console.log('evidence test: ' + test);
-//         // if(spellChars.filter(characters[i])){
-//         //     return spellChars.imgFile
-//         // }
-
-//         $(".spellingName").html(
-//             `<img src=${test.imgFile}>`
-//         );
