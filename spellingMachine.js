@@ -221,10 +221,10 @@
             // }
             let num = 0;
             $(".spellingName").append(
-                `<img src="${file}" class='alphabetPic'>`
+                `<img src="${file}" class='alphabetPic' alt='Man spelling out'>`
                 );
             $(".alphabetBlocks").append(`
-                <img src="${aslFile}" class="blockBox" onclick=()>
+                <img src="${aslFile}" class="blockBox" alt='alphabet letter box in ASL'>
             `);
             // $(".spellingName").prepend(`<img src="AlphabetData/Blank.JPG" class="emptyImg">`);
             // <img src="AlphabetData/Blank.JPG" class="emptyImg">
