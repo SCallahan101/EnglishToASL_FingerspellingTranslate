@@ -134,41 +134,14 @@
     $("#readyButton").hide();
     $(".directionButton").hide();
 
-    //Counting the number of visitors
-    // let updateTheNumber = (storageValue) => {
-    //     localStorage.setItem("last-count-value", storageValue);
-    //     sessionStorage.setItem("current-count", storageValue);
-    // };
-
-    // let getVisitorsCount = () => {
-    //     let lastSessionValue = localStorage.getItem("last-count-value");
-    //     if(lastSessionValue === null){
-    //         updateTheNumber(1);
-    //     }else if(lastSessionValue && sessionStorage.getItem("current-count") === null){
-    //         lastSessionValue++;
-    //         updateTheNumber(lastSessionValue);
-    //     }
-    //     console.log("The visitors count: " + lastSessionValue);
-    //     $("#countVisitors").text(`Number of visitors: ${lastSessionValue}`);
-    //     return parseInt(lastSessionValue);
-    // }
-    // getVisitorsCount();
-    //NOT WORKING ON ALL BOARD. 
-
-
-
-
     $("#name-entrybox").submit(e => {
         e.preventDefault();
         document.getElementById("result-container").style.height = "unset";
-        // $("#intro-container").after("<video id='videoArea' autoplay playsinline></video>");
-        // document.getElementById("videoArea").style.width = "795px";
         const resultValue = $('#textName').val();
         console.log("Textbox value: " + resultValue);
         $(".wordInput").text(`English: ${resultValue}` + `. The American Sign Language will spelling out like this!`);
         // Pop the intro
         $("#intro-container").remove();
-        // $("#videoArea").html("<source src='AlphabetData/Intro.mp4' type='video/mp4'>");
         $('#readyButton').attr("disabled", false);
         $(".spellingName").html(
             // empty the append part
@@ -180,8 +153,6 @@
         )  
         $("#readyButton").show();
         $(".directionButton").hide();
-        // $("#repeatLoopButton").show();  
-        // resultValue;
         let characters = resultValue.split('');
         console.log(characters);
         // Second Part
@@ -204,21 +175,10 @@
             // console.log(capABC + " = Capitalize Completed");
             let test = spellChars.filter((obj => obj.alphabet === capABC));
             console.log("array received: " + JSON.stringify(test));
-            // let srcData = test.filter(url => {
-            //     return url.imgFile;
-            // })
             let file = test.map(a => a.imgFile);
             console.log("url: " + file);
             let aslFile = test.map(b => b.aslPic);
             console.log("asl pic: " + aslFile);
-            // let numForLoop = localStorage.getItem('num');
-            // console.log("testing get the number: " + numForLoop);
-            // n = numForLoop;
-            // result = "";
-            // for(let i = 0; i < n; i++){
-            //     console.log("increment " + i);
-            //     result = i;
-            // }
             let num = 0;
             $(".spellingName").append(
                 `<img src="${file}" class='alphabetPic' alt='Man spelling out'>`
@@ -226,33 +186,11 @@
             $(".alphabetBlocks").append(`
                 <img src="${aslFile}" class="blockBox" alt='alphabet letter box in ASL'>
             `);
-            // $(".spellingName").prepend(`<img src="AlphabetData/Blank.JPG" class="emptyImg">`);
-            // <img src="AlphabetData/Blank.JPG" class="emptyImg">
             let perPic = $('.container img:first');
             $(perPic).show();
             $(".directionButton").show();
             $(".alphabetBlocks").show();
-            // // $("#videoArea").hide();
-            // $("#result-container br").remove();
-            // $("#readyButton").hide();
-            // $("#readyButton").html("Check it Out!");
         }
-        // $("#readyButton").on('click', function(){
-        //     console.log("Ready button clicked");
-        //         $('#readyButton').attr("disabled", true);
-        //         let perPic = $('.container img:first');
-        //         $(perPic).show();
-        //         $(".directionButton").show();
-        //         $(".alphabetBlocks").show();
-        //         // $("#videoArea").hide();
-        //         $("#result-container br").remove();
-        //         $("#readyButton").hide();
-        //         $("#readyButton").html("Check it Out!");
-        //         // let perBlock = $('.alphabetBlocks img:first');
-        //         // $(perBlock).style.boxShadow = "10px 10px 5px #888"; 
-        //         // $('.alphabetBlocks .blockBox:first-child').style.boxShadow("10px 10px 5px #888");
-        // })
-
 
         let slideIndex = 1;
         presentImg(slideIndex);
@@ -266,7 +204,6 @@
         function presentImg(n){
             let i;
             const slides = document.getElementsByClassName("alphabetPic");
-            // const letterBox = document.getElementsByClassName("blockBox");
             if (n > slides.length){slideIndex = 1}
             if(n < 1){slideIndex = slides.length}
             for(i = 0; i < slides.length; i++){
@@ -275,15 +212,12 @@
             slides[slideIndex-1].style.display = "block";
 
             const letterBoxs = document.getElementsByClassName("blockBox");
-            // let currentLetter = letterBoxs[slideIndex-1];
             let x;
             if (n > letterBoxs.length){slideIndex = 1}
             if(n < 1){slideIndex = letterBoxs.length}
             for(x = 0; x < letterBoxs.length; x++){
-                // letterBoxs[x].style.boxShadow = "none";
                 letterBoxs[x].style.border = "2px solid black";
             }
-            // letterBoxs[slideIndex-1].style.boxShadow = "0px 0px 10px 6px rgba(240,115,85,1)";
             letterBoxs[slideIndex-1].style.border = "3px solid rgba(240,115,85,1)";
         }
 nextSlide();
